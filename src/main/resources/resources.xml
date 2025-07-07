@@ -1,0 +1,10 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="Fac" class="org.example.Faculty"> </bean>
+    <bean id="Men" class="org.example.Mentor"> </bean>
+    <bean id="Pro" class="org.example.Prof"> </bean>
+    <bean id="Stu" class="org.example.Student"> </bean>
+    <bean id="Tra" class="org.example.Tranier"> </bean>
+</beans>
